@@ -3,11 +3,11 @@
 ALL filesInProject DO NOT match pattern
 
 
+filesInProject : [a]
 
+match : b -> (a -> Bool)
 
-
-
-
+pattern : b
 
 
 
@@ -36,10 +36,10 @@ ALL filesInProject DO NOT match pattern
 
 -- COMPILER OUTPUT -------------------------------------------------------------
 
-TYPECHECKS => NO
+TYPECHECKS => YES
 COMPILABLE => NO
 
-MISSING ROLES:
+MISSING ROLES: filesInProject, match, pattern
 MISSING TYPES:
-MISSING VALUES:
+MISSING VALUES: filesInProject, match, pattern
 
