@@ -2,8 +2,8 @@ ALL filesInProject DO NOT match pattern
 
 ---
 
-filesInProject : [a]
+filesInProject : [file]
 
-match : b -> (a -> Bool)
+match : regex -> (file -> Bool)
 
-pattern : b
+pattern : regex
