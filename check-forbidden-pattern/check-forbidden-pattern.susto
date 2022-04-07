@@ -2,12 +2,12 @@
 
 ALL filesInProject DO NOT match pattern
 
+[gather] filesInProject : [file]
 
-filesInProject : [file]
-
-match : regex -> (file -> Bool)
+[gather] match : regex -> (file -> Bool)
 
 pattern : regex
+
 
 
 
