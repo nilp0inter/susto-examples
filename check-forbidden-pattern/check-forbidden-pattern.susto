@@ -1,0 +1,45 @@
+- check-forbidden-pattern.susto ------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- COMPILER OUTPUT -------------------------------------------------------------
+
+TYPECHECKS => NO
+COMPILABLE => NO
+
+MISSING ROLES:
+MISSING TYPES:
+MISSING VALUES:
+
