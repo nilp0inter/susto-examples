@@ -39,7 +39,7 @@ pattern = "BEGIN RSA PRIVATE KEY"
 TYPECHECKS => NO
 COMPILABLE => NO
 
-MISSING ROLES: pathToProject
-MISSING TYPES: pattern
+MISSING ROLES:
+MISSING TYPES: pattern, pathToProject
 MISSING VALUES: filesInProject, match, pathToProject
 
