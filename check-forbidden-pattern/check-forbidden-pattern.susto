@@ -40,6 +40,17 @@ TYPECHECKS => NO
 COMPILABLE => NO
 
 MISSING ROLES:
-MISSING TYPES: pattern, pathToProject
+MISSING TYPES: pattern
 MISSING VALUES: filesInProject, match, pathToProject
+
+Help!
+-----
+
+By the position of the token <help!> I can infer the type `FilePath -> [file]`.
+Some candidates for the variable type `file` are:
+
+- S3File
+- LocalFile
+- SCPFile
+...
 
