@@ -1,1 +1,9 @@
 ALL filesInProject DO NOT match pattern
+
+---
+
+filesInProject : [a]
+
+match : b -> (a -> Bool)
+
+pattern : b
