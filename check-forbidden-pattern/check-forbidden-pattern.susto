@@ -41,14 +41,5 @@ COMPILABLE => NO
 
 MISSING ROLES:
 MISSING TYPES: regex
-MISSING VALUES: match
+MISSING VALUES:
 
-Help!
------
-
-By the position of the token <help!> I can infer the type `regex -> (LocalFile -> Bool)`.
-Possible programs to fill the gap are:
-
-- isExecutable : Permission -> (LocalFile -> Bool)   | regex=Permission
-- isOwnedBy    : User -> (LocalFile -> Bool)         | regex=User
-- fileMatchRegex : RegEx -> (LocalFile -> Bool)      | regex=RegEx
