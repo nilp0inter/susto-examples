@@ -5,10 +5,10 @@ ALL filesInProject DO NOT match pattern
 [gather] filesInProject : [LocalFile]
 filesInProject = recursiveListDirectory pathToProject
 
-[gather] match : regex -> (LocalFile -> Bool)
+[gather] match : RegEx -> (LocalFile -> Bool)
 match = fileMatchRegex
 
-[check] pattern : regex
+[check] pattern : RegEx
 pattern = "BEGIN RSA PRIVATE KEY"
 
 [runtime] pathToProject : FilePath
