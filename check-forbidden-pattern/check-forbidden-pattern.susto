@@ -36,10 +36,10 @@ RegEx:
 
 -- COMPILER OUTPUT -------------------------------------------------------------
 
-TYPECHECKS => NO
-COMPILABLE => NO
+TYPECHECKS => YES
+COMPILABLE => YES
 
 MISSING ROLES:
-MISSING TYPES: regex
+MISSING TYPES:
 MISSING VALUES:
 
