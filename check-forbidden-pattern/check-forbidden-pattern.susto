@@ -40,14 +40,6 @@ TYPECHECKS => NO
 COMPILABLE => NO
 
 MISSING ROLES:
-MISSING TYPES: pattern
-MISSING VALUES: filesInProject, match, pathToProject
+MISSING TYPES: regex
+MISSING VALUES: match
 
-Help!
------
-
-By the position of the token <help!> I can infer the type `FilePath -> [LocalFile]`.
-Possible programs to fill the gap are:
-
-- listDirectory : FilePath -> [LocalFile]
-- recursiveListDirectory : FilePath -> [LocalFile]
