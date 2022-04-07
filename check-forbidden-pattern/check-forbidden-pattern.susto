@@ -18,16 +18,16 @@ pattern = "BEGIN RSA PRIVATE KEY"
 
 
 
+- filematchregex.py ------------------------------------------------------------
+
+def fileMatchRegex(r: RegEx, f: LocalFile) -> Bool
+    # Shameless call to grep using `r` and `f` and return retval as bool
 
 
+- regex.type -------------------------------------------------------------------
 
-
-
-
-
-
-
-
+RegEx:
+{ "type": "string" }
 
 
 
