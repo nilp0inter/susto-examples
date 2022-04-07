@@ -41,5 +41,5 @@ COMPILABLE => NO
 
 MISSING ROLES:
 MISSING TYPES: pattern
-MISSING VALUES: filesInProject, match, pattern
+MISSING VALUES: filesInProject, match
 
