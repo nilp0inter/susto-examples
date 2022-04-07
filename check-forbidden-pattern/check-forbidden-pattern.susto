@@ -51,3 +51,4 @@ Possible programs to fill the gap are:
 
 - isExecutable : Permission -> (LocalFile -> Bool)   | regex=Permission
 - isOwnedBy    : User -> (LocalFile -> Bool)         | regex=User
+
