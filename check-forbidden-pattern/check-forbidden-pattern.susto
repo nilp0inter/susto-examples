@@ -10,7 +10,7 @@ filesInProject = <help!> pathToProject
 [check] pattern : regex
 pattern = "BEGIN RSA PRIVATE KEY"
 
-
+pathToProject : a
 
 
 
@@ -39,7 +39,7 @@ pattern = "BEGIN RSA PRIVATE KEY"
 TYPECHECKS => NO
 COMPILABLE => NO
 
-MISSING ROLES:
+MISSING ROLES: pathToProject
 MISSING TYPES: pattern
-MISSING VALUES: filesInProject, match
+MISSING VALUES: filesInProject, match, pathToProject
 
