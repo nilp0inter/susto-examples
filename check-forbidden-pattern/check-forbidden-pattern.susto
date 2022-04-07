@@ -6,7 +6,7 @@ ALL filesInProject DO NOT match pattern
 filesInProject = recursiveListDirectory pathToProject
 
 [gather] match : regex -> (LocalFile -> Bool)
-match = <help!>
+match = fileMatchRegex
 
 [check] pattern : regex
 pattern = "BEGIN RSA PRIVATE KEY"
