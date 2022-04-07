@@ -2,10 +2,10 @@
 
 ALL filesInProject DO NOT match pattern
 
-[gather] filesInProject : [file]
+[gather] filesInProject : [LocalFile]
 filesInProject = <help!> pathToProject
 
-[gather] match : regex -> (file -> Bool)
+[gather] match : regex -> (LocalFile -> Bool)
 
 [check] pattern : regex
 pattern = "BEGIN RSA PRIVATE KEY"
