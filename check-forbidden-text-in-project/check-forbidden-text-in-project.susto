@@ -1,3 +1,4 @@
+- check-forbidden-text-in-project.susto ----------------------------------------
 ALL filesInProject DO NOT match pattern
 
 ---
@@ -7,3 +8,36 @@ filesInProject : [file]
 match : regex -> (file -> Bool)
 
 pattern : regex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- COMPILER OUTPUT -------------------------------------------------------------
+
+TYPECHECKS => YES
+COMPILABLE => NO
+
+MISSING ROLES:
+MISSING TYPES:
+MISSING VALUES:
+
