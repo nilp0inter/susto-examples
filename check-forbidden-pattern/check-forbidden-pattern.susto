@@ -10,7 +10,7 @@ filesInProject = <help!> pathToProject
 [check] pattern : regex
 pattern = "BEGIN RSA PRIVATE KEY"
 
-pathToProject : a
+[runtime] pathToProject : a
 
 
 
