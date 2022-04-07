@@ -7,7 +7,7 @@ ALL filesInProject DO NOT match pattern
 [gather] match : regex -> (file -> Bool)
 
 [check] pattern : regex
-
+pattern = "BEGIN RSA PRIVATE KEY"
 
 
 
