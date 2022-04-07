@@ -3,7 +3,7 @@
 ALL filesInProject DO NOT match pattern
 
 [gather] filesInProject : [LocalFile]
-filesInProject = <help!> pathToProject
+filesInProject = recursiveListDirectory pathToProject
 
 [gather] match : regex -> (LocalFile -> Bool)
 
