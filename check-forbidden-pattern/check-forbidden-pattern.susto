@@ -46,11 +46,8 @@ MISSING VALUES: filesInProject, match, pathToProject
 Help!
 -----
 
-By the position of the token <help!> I can infer the type `FilePath -> [file]`.
-Some candidates for the variable type `file` are:
+By the position of the token <help!> I can infer the type `FilePath -> [LocalFile]`.
+Possible programs to fill the gap are:
 
-- S3File
-- LocalFile
-- SCPFile
-...
-
+- listDirectory : FilePath -> [LocalFile]
+- recursiveListDirectory : FilePath -> [LocalFile]
