@@ -39,7 +39,7 @@ pattern : regex
 TYPECHECKS => YES
 COMPILABLE => NO
 
-MISSING ROLES: filesInProject, match, pattern
+MISSING ROLES: pattern
 MISSING TYPES:
 MISSING VALUES: filesInProject, match, pattern
 
