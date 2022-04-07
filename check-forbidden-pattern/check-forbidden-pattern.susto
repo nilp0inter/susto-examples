@@ -36,10 +36,10 @@ ALL filesInProject DO NOT match pattern
 
 -- COMPILER OUTPUT -------------------------------------------------------------
 
-TYPECHECKS => YES
+TYPECHECKS => NO
 COMPILABLE => NO
 
-MISSING ROLES: pattern
-MISSING TYPES:
+MISSING ROLES:
+MISSING TYPES: pattern
 MISSING VALUES: filesInProject, match, pattern
 
